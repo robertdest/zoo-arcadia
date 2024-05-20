@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Zoo Arcadia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef5f9; /* Couleur de fond choisie par le client */
+            color: #333; /* Couleur de texte principale */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4caf50; /* Couleur d'accentuation choisie par le client */
+            color: #fff; /* Couleur de texte sur l'entête */
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .image-gallery img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .habitat {
+            margin-bottom: 20px;
+        }
+        .habitat h2 {
+            color: #4caf50; /* Couleur d'accentuation pour les titres */
+        }
+        .avis {
+            background-color: #fff; /* Fond blanc pour la section des avis */
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .avis h2 {
+            color: #4caf50; /* Couleur d'accentuation pour les titres */
+        }
+        footer {
+            background-color: #4caf50;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Zoo Arcadia</h1>
+        <p>Un paradis naturel pour toute la famille</p>
+    </header>
+    <div class="container">
+        <section class="presentation">
+            <h2>Présentation du Zoo</h2>
+            <p>Bienvenue au Zoo Arcadia, situé près de la forêt de Brocéliande en Bretagne depuis 1960. Découvrez notre écosystème diversifié où les animaux vivent en harmonie.</p>
+            <div class="image-gallery">
+                <img src="savane.jpg" alt="Savane">
+                <img src="jungle.jpg" alt="Jungle">
+                <img src="marais.jpg" alt="Marais">
+            </div>
+        </section>
+        <section class="habitat">
+            <h2>Habitats</h2>
+            <p><strong>Savane :</strong> Lions, girafes, éléphants...</p>
+            <p><strong>Jungle :</strong> Singes, tigres, perroquets...</p>
+            <p><strong>Marais :</strong> Crocodiles, grenouilles, tortues...</p>
+        </section>
+        <section class="services">
+            <h2>Services</h2>
+            <p>Nous proposons une variété de services pour rendre votre visite agréable :</p>
+            <ul>
+                <li>Restaurants avec des menus écologiques</li>
+                <li>Boutiques de souvenirs durables</li>
+                <li>Visites guidées pour une expérience enrichissante</li>
+                <li>Aire de jeux pour les enfants</li>
+            </ul>
+        </section>
+        <section class="avis">
+            <h2>Avis du Zoo</h2>
+            <p>« Une expérience inoubliable pour toute la famille ! Les animaux sont bien soignés et l'atmosphère écologique est apaisante. »</p>
+            <p>« J'ai adoré la visite guidée, très instructive et divertissante. Le zoo est magnifiquement aménagé. »</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Zoo Arcadia - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
